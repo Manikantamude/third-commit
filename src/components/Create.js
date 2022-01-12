@@ -9,7 +9,6 @@ class Create extends React.Component{
     }
     render(){
         console.log(this.state)
-        console.log("this is render return")
         return(
             <div>
              <p>Name:{this.state.name}</p> 
