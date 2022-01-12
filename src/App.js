@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import ClassComponent from './ClassComponent';
-import Fun from './Fun';
+import Direct from './Fun';
+import Create from './components/Create'
 
 function App() {
   return (
     <div>
-      <Fun name="siva" hero="NTR"/>
-      <Fun name="krishna" hero="balakrishna" />
-      <Fun name="ram" hero="nararohit" />
-      <Fun name="snakar" hero="shanmukh" />
+      <Create/>
+      {/* <Direct name="siva" hero="NTR"/>
+      <Direct name="krishna" hero="balakrishna" />
+      <Direct name="ram" hero="nararohit" />
+      <Direct name="snakar" hero="shanmukh" /> */}
     </div>
   );
 }
