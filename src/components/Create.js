@@ -5,7 +5,7 @@ class Create extends React.Component{
         name:"mani",
         year:2022,
         gender:"male",
-        employee:[{id:1,name:"emp1"},{id:2,name:"emp2"},{id:3,name:"emp3"}]
+        employee:[{id:1,name:"name"},{id:2,name:"emp2"},{id:3,name:"emp3"}]
     }
     render(){
         console.log(this.state)
