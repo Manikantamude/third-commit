@@ -5,10 +5,11 @@ class Create extends React.Component{
         name:"mani",
         year:2022,
         gender:"male",
-        employee:[{id:1,name:"name"},{id:2,name:"emp2"},{id:3,name:"emp3"}]
+        employee:[{id:1,name:"mani"},{id:2,name:"emp2"},{id:3,name:"emp3"}]
     }
     render(){
         console.log(this.state)
+        console.log("this is render return")
         return(
             <div>
              <p>Name:{this.state.name}</p> 
@@ -16,8 +17,8 @@ class Create extends React.Component{
             <pre>This is new component</pre>
             <First ym={this.state.name}/>
             <div>
-                <p><span>{this.state.employee[1].name}</span></p>
-                <p><span>{this.state.employee[0].id}</span></p>
+                <p><span>{this.state.employee[1].name}</span>
+                <span>{this.state.employee[0]}</span></p>
             </div>
             </div>
         
