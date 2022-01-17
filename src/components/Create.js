@@ -8,6 +8,7 @@ class Create extends React.Component{
         employee:[{id:1,name:"mani"},{id:2,name:"emp2"},{id:3,name:"emp3"}]
     }
     render(){
+        alert();
         console.log(this.state)
         console.log("this is render return")
         return(
