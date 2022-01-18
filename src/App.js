@@ -4,11 +4,13 @@ import ClassComponent from './ClassComponent';
 import Direct from './Fun';
 import Create from './components/Create'
 import Storage from './Storage'
-
+import LetterThree from './components/LetterThree'
+import Events from './components/Events'
 function App() {
   return (
     <div>
-      <Storage/>
+      <LetterThree say="I want to know letter three" name="mani" age="22"/>
+      <Events/>
     </div>
   );
 }
